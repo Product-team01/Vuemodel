@@ -8,8 +8,7 @@ export default function APIReferenceSection() {
   return (
     <section>
       <Head>
-        <link rel="prefetch" href="/static/landing-page/api-ref-light.png" />
-        <link rel="prefetch" href="/static/landing-page/api-ref-dark.png" />
+        
       </Head>
       <div className="relative mx-auto flex w-full max-w-7xl flex-col items-center gap-10 rounded-2xl bg-gradient-to-r from-black to-zinc-800 px-6 py-20 text-center text-white dark:from-zinc-100 dark:to-white dark:text-black lg:flex-row lg:p-20 lg:text-left">
         <Link
@@ -21,11 +20,9 @@ export default function APIReferenceSection() {
           <ArrowUpRight className="h-6 w-6 text-zinc-400 dark:text-black" />
         </Link>
         <div className="flex-1">
-          <h2 className="text-4xl">REST API Reference</h2>
+          <h2 className="text-4xl">VueModel</h2>
           <p className="text-zinc-400">
-            Don&apos;t worry, they are&apos;t complex. Use our
-            developer-friendly REST APIs and integrate video and voice communication
-            into your web, mobile, or desktop applications programmatically.
+          VueModel is Vue.ai’s AI-powered on-model imagery solution that transforms product photos into on-model product imagery. Whether you’re aiming to improve efficiency and reduce operational costs or to enhance inclusivity and representation, VueModel empowers retailers to build and customize on-model product imagery. By displaying products on models that brands and shoppers connect with and relate to the most, VueModel often improves conversion rates and sales while lowering returns. This AI-powered on-model imagery solution can analyze the size and shape of a product, identify its attributes, and then use a single set of inputs to show the same product on a variety of models of different sizes and ethnicities, depending on your usage needs and customer base. The images delivered by VueModel are created “eCommerce ready” with the right background, resolution, and image format to fit your requirements!
           </p>
           <Link
             href="/api"
@@ -79,7 +76,13 @@ export default function APIReferenceSection() {
           </ul>
         </div>
         <div className="flex flex-1 justify-end">
-          
+          <ThemedImage
+            sources={{
+            
+            }}
+            alt="API Reference Preview"
+            loading="lazy"
+          />
         </div>
       </div>
     </section>

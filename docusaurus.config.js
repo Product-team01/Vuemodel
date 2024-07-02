@@ -379,13 +379,13 @@ const docs = [
             width: '101px',
           },
           items: [
+            // {
+            //   label: 'Guides',
+            //   to: 'guides',
+            //   className: 'guides-top-header',
+            // },
             {
-              label: 'Guides',
-              to: 'guides',
-              className: 'guides-top-header',
-            },
-            {
-              label: 'Automation Hub',
+              label: 'Product Shooting Guide',
               type: 'dropdown',
               className: 'dyte-dropdown',
               items: [{
@@ -405,7 +405,7 @@ const docs = [
             //   }, ],
             // },
             {
-              label: 'Data Hub',
+              label: 'Model shooting guidelines',
               type: 'dropdown',
               className: 'dyte-dropdown',
               items: [{
@@ -414,18 +414,18 @@ const docs = [
                 className: 'dyte-dropdown',
               }, ],
             },
+            // {
+            //   label: 'Resources',
+            //   type: 'dropdown',
+            //   className: 'dyte-dropdown',
+            //   items: [{
+            //     type: 'html',
+            //     value: resourcesHTML,
+            //     className: 'dyte-dropdown',
+            //   }, ],
+            // },
             {
-              label: 'Resources',
-              type: 'dropdown',
-              className: 'dyte-dropdown',
-              items: [{
-                type: 'html',
-                value: resourcesHTML,
-                className: 'dyte-dropdown',
-              }, ],
-            },
-            {
-              label: 'Administration',
+              label: 'Other Categories supported',
               type: 'dropdown',
               className: 'dyte-dropdown',
               items: [{
