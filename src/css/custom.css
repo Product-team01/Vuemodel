@@ -766,7 +766,7 @@ html[data-theme='dark'] .dropdown > .navbar__link:after {
 }
 
 .dyte-dropdown .sdk-ul {
-  @apply mt-2 flex list-none flex-wrap gap-1 pl-0;
+  @apply mt-2  list-none flex-wrap gap-1 pl-0;
 }
 
 .dyte-dropdown .sdk-link > img {
