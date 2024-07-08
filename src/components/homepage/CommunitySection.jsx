@@ -51,9 +51,9 @@ export default function CommunitySection({ className = '' }) {
               Browse through our FAQs to find answers to commonly asked
               questions.
             </p>
-            <Link href="/faq" className="text-primary dark:text-primary-100">
+            {/* <Link href="/faq" className="text-primary dark:text-primary-100">
             Take me There &rarr;
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>
