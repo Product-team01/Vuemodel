@@ -111,16 +111,7 @@ const docs = [
     },
   },
 
-  {
-    id: 'faq',
-    path: 'docs/faq',
-    routeBasePath: '/faq',
-    versions: {
-      current: {
-        label: '1.x.x',
-      },
-    },
-  },
+ 
   
   // {
   //   id: 'angular-ui-kit',
