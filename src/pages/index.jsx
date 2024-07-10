@@ -45,7 +45,7 @@ export default function Homepage() {
         {/* <HelpSection className="-mb-48" /> */}
       </div>
       <CommunitySection />
-      <APIReferenceSection />
+      {/* <APIReferenceSection /> */}
       {/* <div>
       <HubCards />
     </div> */}

@@ -18,14 +18,13 @@ export default function CommunitySection({ className = '' }) {
            
             <h3 className="my-3">About VueModel</h3>
             <p className="text-zinc-600 dark:text-zinc-400">
-              Contact us for a demo. We are looking forward to connecting with
-              you.
+            
             </p>
             <Link
-              href="https://dyte.io/schedule-demo"
+              href=""
               className="text-primary dark:text-primary-100"
             >
-              Take me There &rarr;
+              Coming soon &rarr;
             </Link>
           </div>
 
@@ -33,14 +32,13 @@ export default function CommunitySection({ className = '' }) {
           
             <h3 className="my-3">Clothing & Accessories Guide</h3>
             <p className="text-zinc-600 dark:text-zinc-400">
-              Dyte&apos;s expert support team is always available to help. Connect for
-              dedicated 1:1 support!
+             
             </p>
             <Link
-              href="https://dyte.io/contact"
+              href=""
               className="text-primary dark:text-primary-100"
             >
-                 Take me There &rarr;
+                 Coming soon &rarr;
             </Link>
           </div>
 
@@ -48,8 +46,7 @@ export default function CommunitySection({ className = '' }) {
             
             <h3 className="my-3">Previews & Tests</h3>
             <p className="text-zinc-600 dark:text-zinc-400">
-              Browse through our FAQs to find answers to commonly asked
-              questions.
+             
             </p>
             {/* <Link href="/faq" className="text-primary dark:text-primary-100">
             Take me There &rarr;

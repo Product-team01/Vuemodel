@@ -70,9 +70,70 @@ const docs = [
     },
   }, 
   {
+    id: 'apparel-product',
+    path: 'docs/apparel-product',
+    routeBasePath:'/apparel-product',
+    versions: {
+      current: {
+        label: '1.x.x',
+      },
+    },
+  }, 
+  {
+    id: '3D-input-guide',
+    path: 'docs/3D-input-guide',
+    routeBasePath: '/3D-input-guide',
+    versions: {
+      current: {
+        label: '1.x.x',
+      },
+    },
+  }, 
+  {
+    id: 'model-accessories',
+    path: 'docs/model-accessories',
+    routeBasePath: '/model-accessories',
+    versions: {
+      current: {
+        label: '1.x.x',
+      },
+    },
+  }, 
+  {
+    id: 'Model-shooting-A',
+    path: 'docs/Model-shooting-A',
+    routeBasePath: '/Model-shooting-A',
+    versions: {
+      current: {
+        label: '1.x.x',
+      },
+    },
+  }, 
+  
+  {
     id: 'Workflow-concepts',
     path: 'docs/Workflow-concepts',
     routeBasePath: '/Workflow-concepts',
+    versions: {
+      current: {
+        label: '1.x.x',
+      },
+    },
+  },
+  {
+    id: 'product-shooting-guidelines',
+    path: 'docs/product-shooting-guidelines',
+    routeBasePath: '/product-shooting-guidelines',
+    versions: {
+      current: {
+        label: '1.x.x',
+      },
+    },
+  },
+  {
+    id: 'SWIMWEAR-GUIDE',
+    path: 'docs/SWIMWEAR-GUIDE',
+    routeBasePath: '/SWIMWEAR-GUIDE',
     versions: {
       current: {
         label: '1.x.x',
