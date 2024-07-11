@@ -109,6 +109,26 @@ const docs = [
       },
     },
   }, 
+  {
+    id: 'preview-test',
+    path: 'docs/preview-test',
+    routeBasePath: '/preview-test',
+    versions: {
+      current: {
+        label: '1.x.x',
+      },
+    },
+  }, 
+  {
+    id: 'vuemodel-guidelines',
+    path: 'docs/vuemodel-guidelines',
+    routeBasePath: '/vuemodel-guidelines',
+    versions: {
+      current: {
+        label: '1.x.x',
+      },
+    },
+  }, 
   
   {
     id: 'Workflow-concepts',
