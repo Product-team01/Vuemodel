@@ -48,9 +48,9 @@ export default function CommunitySection({ className = '' }) {
             <p className="text-zinc-600 dark:text-zinc-400">
              
             </p>
-            {/* <Link href="/faq" className="text-primary dark:text-primary-100">
+            <Link href="https://guidelines.vue.ai/preview-test" className="text-primary dark:text-primary-100">
             Take me There &rarr;
-            </Link> */}
+            </Link>
           </div>
         </div>
       </div>
