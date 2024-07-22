@@ -1,170 +1,66 @@
-<script>
-  function showMenu(menu) {
-    document.body.classList.remove('web', 'mobile', 'desktop', 'plugin');
-    document.body.classList.add(menu);
-  }
+<div
+  class="resources-dropdown-menu flex flex-col rounded-2xl p-4 lg:min-w-[220px]"
+>
+  <ul
+    class="flex list-none flex-col gap-2 pl-0 text-gray-700 dark:text-zinc-200"
+  >
+    <li>
+      <a href="/apparel-product/" class="flex items-center gap-2 text-inherit">
+        <img src="/static/landing-page/sdk-icons/resources/book-open.svg" />
 
-  window.showMenu = showMenu;
-</script>
-<div class="sdks-dropdown flex max-w-lg flex-col rounded-2xl lg:min-w-[768px]">
-  <div class="flex flex-col bg-secondary-800 p-4 lg:min-h-[300px] lg:flex-row">
-    <div class="flex flex-1 flex-col gap-8 rounded-xl bg-secondary-1000 p-6">
-      <!-- <a data-dropdown-sdks-menu="web" onfocus="document.body.setAttribute('data-sdk-menu', 'web')"
-        onmouseover="document.body.setAttribute('data-sdk-menu', 'web')"
-        class="flex cursor-pointer items-start justify-start gap-2 border-none bg-transparent text-black dark:text-white"
-        href="/Content-Manager/">
-        <div class="flex-shrink-0">
-
-        </div>
-        <div class="flex flex-col items-start justify-start gap-1">
-          <div class="text-base font-semibold">Content Manager</div>
-          <p class="mb-0 text-left text-sm text-text-400">
-            Content Manager enables you to create and manage different types of catalogs by ingesting data from various data sources, processing these and making them available for applications
-          </p>
-        </div>
-      </a> -->
-      <a data-dropdown-sdks-menu="mobile" onfocus="document.body.setAttribute('data-sdk-menu', 'mobile')"
-        onmouseover="document.body.setAttribute('data-sdk-menu', 'mobile')"
-        class="flex cursor-pointer items-start justify-start gap-2 border-none bg-transparent text-black dark:text-white"
-        href="">
-       
-        <div class="flex flex-col items-start justify-start gap-1">
-          <div class="text-base font-semibold">Apparel Model Shooting Guide</div>
-          <p class="mb-0 text-left text-sm text-text-400">
-          </p>
-        </div>
+        Photography & Composition
       </a>
-      <a data-dropdown-sdks-menu="plugin" onfocus="document.body.setAttribute('data-sdk-menu', 'plugin')"
-        onmouseover="document.body.setAttribute('data-sdk-menu', 'plugin')"
-        class="flex cursor-pointer items-start justify-start gap-2 border-none bg-transparent text-black dark:text-white"
-        href="">
-       
-        <div class="flex flex-col items-start justify-start gap-1">
-          <div class="text-base font-semibold">Accessories Model Shooting Guide</div>
-          <p class="mb-0 text-left text-sm text-text-400">
-        </div>
+    </li>
+    <li>
+      <a
+        href="/Model-shooting-A""
+        target="_blank"
+        class="flex items-center gap-2 text-inherit"
+      >
+      <img src="/static/landing-page/sdk-icons/resources/book-open.svg" />
+
+      Model Shooting Guidelines for Apparel
       </a>
-   
-   
-    </div>
-    <div class="flex-1 p-6">
-      <div class="flex flex-col gap-2" data-dropdown-sdks="web">
-        <div class="flex flex-1 flex-col">
-          <!-- <h3 class="!mb-0.5">Core SDK</h3>
-          <span class="none hidden text-sm font-normal lg:block">Video + Voice + Livestreaming + Chat</span> -->
-          <ul class="sdk-ul">
-            <li>
-              <a href="/Content-Manager" class="sdk-link">
-                <img src="https://vueai.cdn.prismic.io/vueai/436f34cd-542c-4bd9-b99e-4a9aa9229071_sl-icon-a.svg?fit=max&w=64" />
-                Resources
-              </a>
-              <!-- Nested List Begins Here -->
-              <ul style="margin-left: 20px; list-style-type: circle;">
-               
-                <li><a href="/Content-Manager">User Guide</a></li>
-                <li><a href="https://vuesandbox.vercel.app//faq/Document%20Manager">FAQ</a></li>
+    </li>
+    <!-- <li>
+      <a href="/release-notes" class="flex items-center gap-2 text-inherit">
+        <img src="/static/landing-page/sdk-icons/resources/book-open.svg" />
+        Release Notes
+      </a>
+    </li> -->
+    <li>
+      <a
+        href="/model-accessories/"
+        class="flex items-center gap-2 text-inherit"
+      >
+      <img src="/static/landing-page/sdk-icons/resources/book-open.svg" />
+      Model Shooting Guidelines for Accessories 
+      </a>
+    </li>
+    <!-- <li>
+      <a
+        href="hhttps://guidelines.vue.ai/product-shooting-guidelines/Jwellery"
+        class="flex items-center gap-2 text-inherit"
+        target="_blank"
+      >
+      <img src="/static/landing-page/sdk-icons/resources/book-open.svg" />
 
-              </ul>
-            </li>
-            
-            <li>
-              <a href="/api/" class="sdk-link">
-                <img src="https://vueai.cdn.prismic.io/vueai/436f34cd-542c-4bd9-b99e-4a9aa9229071_sl-icon-a.svg?fit=max&w=64" />
-                Integration
-              </a>
-              <!-- Nested List Begins Here -->
-              <ul style="margin-left: 20px; list-style-type: circle;">
-                <li><a  href="/api/">API Reference</a></li>
-               
-           
-              </ul>
-            </li>
-
-            <!-- <li>
-              <a href="/Document-Manager" class="sdk-link">
-                <img src="https://vueai.cdn.prismic.io/vueai/186f0d1e-e16b-4231-8aaf-8bc9616ee3a1_idp.svg?fit=max&w=48" />
-                Document Manager
-              </a>
-            </li> -->
-            <!-- <li>
-              <a href="/Content-Manager" class="sdk-link">
-                <img src="https://vueai.cdn.prismic.io/vueai/436f34cd-542c-4bd9-b99e-4a9aa9229071_sl-icon-a.svg?fit=max&w=64" />
-                Integration
-              </a>
-             
-              <ul style="margin-left: 20px; list-style-type: circle;">
-                <li><a href="/api/"">API Reference</a></li>
-                <li><a href="/Integration">SDK</a></li>
-           
-              </ul>
-            </li>
-           -->
-          </ul>
-        </div>
-        <div class="mt-6 flex flex-1 flex-col">
-          
-        </div>
-      </div>
-
-      <div class="flex gap-2" data-dropdown-sdks="plugin">
-        <div class="flex flex-1 flex-col">
-          <h3 class="!mb-0.5"></h3>
-          <span class="none hidden text-sm font-normal lg:block"></span>
-          <ul class="sdk-ul">
-            <li>
-              <a  class="sdk-link">
-                <img src="https://vueai.cdn.prismic.io/vueai/436f34cd-542c-4bd9-b99e-4a9aa9229071_sl-icon-a.svg?fit=max&w=64" />
-                Resources
-              </a>
-              <!-- Nested List Begins Here -->
-              <ul style="margin-left: 20px; list-style-type: circle;">
-                
-                <li><a href="/model-accessories/">Model Shooting Guide</a></li>
-
-
-              </ul>
-            </li>
-
-            
-          </ul>
-        </div>
-      </div>
-
-      <div class="flex flex-col gap-2" data-dropdown-sdks="mobile">
-        <div class="flex flex-1 flex-col">
-          <h3 class="!mb-0.5"></h3>
-          <span class="none hidden text-sm font-normal lg:block"></span>
-          <ul class="sdk-ul">
-            <li>
-              <a  class="sdk-link">
-                <img src="https://vueai.cdn.prismic.io/vueai/436f34cd-542c-4bd9-b99e-4a9aa9229071_sl-icon-a.svg?fit=max&w=64" />
-                Resources
-              </a>
-              <!-- Nested List Begins Here -->
-              <ul style="margin-left: 20px; list-style-type: circle;">
-                <li><a href="/Model-shooting-A"> Model Shooting Guide</a></li>
-                <li><a href="https://guidelines.vue.ai/Model-shooting-A/model-photography-composition">photography & composition</a></li>
-
-
-              </ul>
-            </li>
-
-            <li>
-              <!-- <a href="/api/" class="sdk-link">
-                <img src="https://vueai.cdn.prismic.io/vueai/436f34cd-542c-4bd9-b99e-4a9aa9229071_sl-icon-a.svg?fit=max&w=64" />
-                Integration
-              </a> -->
-              <!-- Nested List Begins Here -->
-              <ul style="margin-left: 20px; list-style-type: circle;">
-                
-               
-           
-              </ul>
-            </li>
-          
-          </ul>
-        </div>
-        
-
-
+        Bags & Sunglasses
+      </a>
+    </li> -->
+    <!-- <li>
+      <a
+        href="https://www.youtube.com/@dyte-io"
+        target="_blank"
+        class="flex items-center gap-2 text-inherit"
+      >
+        <img
+          src="/static/landing-page/sdk-icons/resources/video.svg"
+          width="22"
+          height="22"
+        />
+        Videos
+      </a>
+    </li> -->
+  </ul>
 </div>
