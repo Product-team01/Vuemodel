@@ -17,27 +17,26 @@ export default function CommunitySection({ className = '' }) {
           <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
             <div className="rounded-lg bg-zinc-100 p-6 dark:bg-zinc-900">
               <h3 className="my-3">Clothing & Accessories Guide</h3>
-              <p className="text-zinc-600 dark:text-zinc-400">
+               {/* <p className="text-zinc-600 dark:text-zinc-400">
                 Dyte&apos;s expert support team is always available to help. Connect for
                 dedicated 1:1 support!
-              </p>
+              </p> */}
               <Link
-                href="https://dyte.io/contact"
+                href=""
                 className="text-primary dark:text-primary-100"
               >
-                Take me There &rarr;
-              </Link>
+                Coming soon &rarr;
+              </Link> 
             </div>
 
             <div className="rounded-lg bg-zinc-100 p-6 dark:bg-zinc-900">
               <h3 className="my-3">Previews & Tests</h3>
               <p className="text-zinc-600 dark:text-zinc-400">
-                Browse through our FAQs to find answers to commonly asked
-                questions.
+              
               </p>
-              {/* <Link href="/faq" className="text-primary dark:text-primary-100">
+              <Link href="https://guidelines.vue.ai/preview-test" className="text-primary dark:text-primary-100">
                 Take me There &rarr;
-              </Link> */}
+              </Link>
             </div>
           </div>
         </div>
